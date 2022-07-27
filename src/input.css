@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+    @apply bg-indigo-300 border border-gray-200 rounded-xl overflow-hidden shadow-lg
+}
+
+.card-btn {
+    @apply border inline-block py-1 px-3 rounded-full bg-gray-700 text-white m-1
+}
