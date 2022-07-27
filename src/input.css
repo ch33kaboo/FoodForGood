@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,4 +11,12 @@
 
 .card-btn {
     @apply border inline-block py-1 px-3 rounded-full bg-gray-700 text-white m-1
+}
+
+.fav-btn {
+    @apply cursor-pointer bg-indigo-600 rounded-full absolute top-0 right-0 m-3 text-indigo-50 font-bold py-1 px-2
+}
+
+.nav-item {
+    @apply hover:bg-gray-800 hover:text-indigo-200 px-5 flex items-center transition-all ease-in cursor-pointer select-none
 }

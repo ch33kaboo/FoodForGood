@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}", "./public/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        dancing: ['Dancing Script'],
+        overpass: ['Overpass']
+      }
+    },
   },
   plugins: [],
 }
