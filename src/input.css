@@ -17,6 +17,14 @@
     @apply cursor-pointer bg-indigo-600 rounded-full absolute top-0 right-0 m-3 text-indigo-50 font-bold py-1 px-2
 }
 
-.nav-item {
-    @apply hover:bg-gray-800 hover:text-indigo-200 px-5 flex items-center transition-all ease-in cursor-pointer select-none
+.nav-items { /* the wrapper of the items */
+    @apply col-span-5 hidden md:flex md:justify-center md:gap-1 md:items-stretch text-lg lg:text-2xl uppercase font-overpass
+}
+
+.nav-item { /* the items themselves */
+    @apply hover:bg-gray-800 hover:text-indigo-200 px-1 md:px-5 flex items-center transition-all ease-in cursor-pointer select-none
+}
+
+.header {
+    @apply w-full flex justify-between items-center md:items-stretch lg:grid lg:grid-cols-8
 }
