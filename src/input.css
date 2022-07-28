@@ -9,8 +9,16 @@
     @apply bg-indigo-300 border border-gray-200 rounded-xl overflow-hidden shadow-gray-500 shadow-lg my-4 sm:my-0 relative hover:scale-103 hover:shadow-gray-600 hover:shadow-lg transition-all ease-in
 }
 
+.btns-wrapper {
+    @apply block col-span-2 self-center mt-3 flex-wrap
+}
+
 .card-btn {
-    @apply border inline-block py-1 px-3 rounded-full bg-gray-700 text-white m-1
+    @apply border py-1 px-3 rounded-full bg-gray-700 text-white m-1 flex justify-center
+}
+
+.svg-icon {
+    @apply fill-white h-6 w-7 inline-block mr-2
 }
 
 .card-title {
