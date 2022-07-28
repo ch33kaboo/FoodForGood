@@ -6,15 +6,23 @@
 @tailwind utilities;
 
 .card {
-    @apply bg-indigo-300 border border-gray-200 rounded-xl overflow-hidden shadow-gray-500 shadow-lg my-6 sm:my-0
+    @apply bg-indigo-300 border border-gray-200 rounded-xl overflow-hidden shadow-gray-500 shadow-lg my-4 sm:my-0
 }
 
 .card-btn {
     @apply border inline-block py-1 px-3 rounded-full bg-gray-700 text-white m-1
 }
 
+.card-title {
+    @apply text-5xl capitalize text-slate-700 font-bold self-center flex justify-center text-center
+}
+
+.card-description {
+    @apply mx-3 my-4
+}
+
 .fav-btn {
-    @apply cursor-pointer bg-indigo-600 rounded-full absolute top-0 right-0 m-3 text-indigo-50 font-bold py-1 px-2
+    @apply cursor-pointer bg-indigo-600 rounded-full shadow-md absolute top-0 right-0 m-3 text-indigo-50 font-bold py-1 px-2 bg-opacity-95 hover:bg-opacity-100 hover:bg-indigo-700 hover:shadow-lg hover:scale-105 transition-all ease-in duration-75
 }
 
 .nav-items { /* the wrapper of the items */
