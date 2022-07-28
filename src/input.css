@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 .card {
-    @apply bg-indigo-300 border border-gray-200 rounded-xl overflow-hidden shadow-gray-500 shadow-lg my-4 sm:my-0 relative hover:scale-103 hover:shadow-gray-600 hover:shadow-lg transition-all ease-in
+    @apply bg-indigo-300 border border-gray-200 rounded-xl overflow-hidden shadow-gray-500 shadow-lg my-4 sm:my-0 relative hover:scale-102 hover:shadow-gray-600 hover:shadow-lg transition-all ease-in
 }
 
 .btns-wrapper {
@@ -14,7 +14,7 @@
 }
 
 .card-btn {
-    @apply border py-1 px-3 rounded-full bg-gray-700 text-white m-1 flex justify-center
+    @apply border py-1 px-3 rounded-full bg-gray-700 text-white m-1 flex justify-center select-none cursor-pointer hover:bg-gray-800 transition-all ease-in
 }
 
 .svg-icon {

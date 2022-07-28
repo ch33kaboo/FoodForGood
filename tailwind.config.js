@@ -8,7 +8,7 @@ module.exports = {
         overpass: ['Overpass']
       },
       scale: {
-        103: '1.03'
+        102: '1.02'
       }
     },
   },
