@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 .card {
-    @apply bg-indigo-300 border border-gray-200 rounded-xl overflow-hidden shadow-lg
+    @apply bg-indigo-300 border border-gray-200 rounded-xl overflow-hidden shadow-gray-500 shadow-lg my-6 sm:my-0
 }
 
 .card-btn {
