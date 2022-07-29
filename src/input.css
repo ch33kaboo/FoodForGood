@@ -22,8 +22,16 @@
     @apply block col-span-2 self-center mt-3 flex-wrap
 }
 
-.card-btn {
+.card-btn-ingredients {
+    @apply border py-1 px-3 rounded-full bg-gray-700 text-white m-1 flex justify-center select-none cursor-pointer hover:bg-gray-800 transition-all ease-in pl-11
+}
+
+.card-btn-origins {
     @apply border py-1 px-3 rounded-full bg-gray-700 text-white m-1 flex justify-center select-none cursor-pointer hover:bg-gray-800 transition-all ease-in
+}
+
+.card-btn-watch {
+    @apply border py-1 px-3 rounded-full bg-gray-700 text-white m-1 flex justify-center select-none cursor-pointer hover:bg-gray-800 transition-all ease-in pr-4
 }
 
 .svg-icon {
