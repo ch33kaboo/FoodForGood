@@ -21,8 +21,20 @@ a landing page for FoodForGood website, this website is fictional and I made thi
 ## used techs:
 * Tailwind CSS 
 
-<a style="margin-left:55px" href="http://tailwindcss.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/tailwindcss.png"/> </a> 
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+        <a href="http://tailwindcss.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/tailwindcss.png"/> </a>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
 
 ---
 
-> Note: I dont claim owning any of the used images.
+> Note: I don't claim the ownership of any of the used images.
