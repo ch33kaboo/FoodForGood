@@ -2,6 +2,11 @@
 
 a landing page for FoodForGood website, this website is fictional and I made this just for learning purposes (I wanted to practice some tailwindCSS).
 
+### If you just want a site overview and see how it looks, you can visite this link: https://foodforgood.netlify.app/public/index.html
+
+or you can install the whole project and make some modifications on it.
+
+
 # Installation
 
 ### Clone repo
