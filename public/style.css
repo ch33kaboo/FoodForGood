@@ -693,6 +693,14 @@ video {
   margin-right: 0.25rem;
 }
 
+.-ml-3{
+  margin-left: -0.75rem;
+}
+
+.mr-2{
+  margin-right: 0.5rem;
+}
+
 .block{
   display: block;
 }
@@ -763,6 +771,10 @@ video {
 
 .w-6{
   width: 1.5rem;
+}
+
+.flex-none{
+  flex: none;
 }
 
 .translate-y-48{
@@ -957,6 +969,18 @@ video {
 
 .bg-opacity-70{
   --tw-bg-opacity: 0.7;
+}
+
+.fill-sky-100{
+  fill: #e0f2fe;
+}
+
+.stroke-sky-500{
+  stroke: #0ea5e9;
+}
+
+.stroke-2{
+  stroke-width: 2;
 }
 
 .object-cover{
